@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+<header class="header">
+    <header class="header">
+        <p class="header-title">Tìm người yêu</p>
+    </header>
+
+</header>
+    <form action="" autocomplete="on" class="form" enctype="multipart/form-data">
+        <table class="table">
+            <tr>
+                <td class="item">Họ tên</td>
+                 <td>
+                     <input type="text" name="name" class="input-item">
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Email</td>
+                <td><input type="email" name="email" class="input-item"></td>
+            </tr>
+            <tr>
+                <td class="item">Mật Khẩu</td>
+                <td><input type="password" name="password" class="input-item"></td>
+            </tr>
+            <tr>
+                <td class="item">Số điện thoại </td>
+                <td><input type="number" name="phone" class="input-item"></td>
+            </tr>
+            <tr>
+                <td class="item">Avatar</td>
+                <td>
+                    <input type="file" name="avatar" class="input-item">
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Tuổi</td>
+                <td class="item">
+                    <select name="age" id="old" class="input-item" style="color: black;">
+                        <option value="1">1 tuổi</option>
+                        <option value="2">2 tuổi</option>
+                        <option value="3">3 tuổi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Giới Tính</td>
+                <td class="item">
+                        <label>
+                            <input type="radio" name="gender" id="man" checked> Nam
+                        </label>
+                        <label >
+                            <input type="radio" name="gender" id="woman" > Nữ
+                        </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Sở thích</td>
+                <td class="item">
+
+                      <label>
+                        <input type="checkbox" class="form-check-input" name="hobby" id="" value="sailing" checked>Đua thuyền
+                      </label>
+                        <br>
+                      <label>
+                        <input type="checkbox" class="form-check-input" name="hobby" id="" value="football" >Đá Bóng
+                      </label>
+                        <br>
+                      <label>
+                        <input type="checkbox" class="form-check-input" name="hobby" id="" value="badminton" >Cầu Lông <br>
+
+                      </label>
+                    </td>
+            </tr>
+
+            <tr>
+            <td class="item">Ghi chú</td>
+            <td class="item">
+                <textarea name="type" id="type" cols="30" rows="03" class="input-item"></textarea>
+            </td>
+            </tr>
+        </table>
+        <div class="link-button">
+            <button class="button">Submit</button>
+        </div>
+    </form>
+
+</html>
